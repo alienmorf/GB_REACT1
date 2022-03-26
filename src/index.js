@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const myName = "Mike";
+const message = "you about to start learning React with GeekBrains!"
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App name={myName} message={message}/>    
   </React.StrictMode>,
   document.getElementById('root')
 );
