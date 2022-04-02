@@ -6,10 +6,8 @@ function App(props) {
       <header className="App-header">
           My First React App
           <h3>Hello {props.name}!</h3> 
-          <h4>{props.name}, {props.message}</h4> 
-      </header>\
+      </header>
 
     </div> );
 }
-
 export default App;

@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Message from './Message';
 import reportWebVitals from './reportWebVitals';
 
 const myName = "Mike";
-const message = "you about to start learning React with GeekBrains!"
+const message = "MESSAGE"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App name={myName} message={message}/>    
+    <App name={myName} />    
+    <Message message={message}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
